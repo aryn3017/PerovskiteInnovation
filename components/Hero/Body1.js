@@ -1,88 +1,58 @@
 import React from 'react'
 import Grad from '../Background/Grad'
-
+import Image from 'next/image'
 const Body1 = () => {
   return (
     <div>
-        <Grad/>
-        <section class="text-gray-600 body-font bg-white bg-cover">
+        <section class="text-gray-600 bg-white body-font">
   <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
-      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table.</p>
-    </div>
-    <div class="flex flex-wrap -m-4">
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Shooting Stars</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-        </div>
+    <div class="flex flex-col">
+      <div class="h-1 bg-gray-200 rounded overflow-hidden">
+        <div class="w-24 h-full bg-indigo-500"></div>
       </div>
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <circle cx="6" cy="6" r="3"></circle>
-              <circle cx="6" cy="18" r="3"></circle>
-              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">The Catalyzer</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-        </div>
-      </div>
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Neptune</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-        </div>
-      </div>
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Melanchole</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-        </div>
-      </div>
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Bunker</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-        </div>
-      </div>
-      <div class="xl:w-1/3 md:w-1/2 p-4">
-        <div class="border border-gray-200 p-6 rounded-lg">
-          <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-            </svg>
-          </div>
-          <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Ramona Falls</h2>
-          <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.</p>
-        </div>
+      <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+        <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Our Domain</h1>
+        <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0 ">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p>
       </div>
     </div>
-    <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden flex justify-center">
+        <Image alt="content" className="object-cover object-center" width={500} height={600} src="/tandem.jpg"/ >
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5   ssm:mx-20">Tandem Solar Cell</h2>
+        <p class="text-base leading-relaxed mt-2 text-justify  ssm:mx-20">Tandem solar cells are actually two solar cells coupled together. The top solar cell is the perovskite layer which absorbs in the visible region and transmits near infrared light of the EM spectrum. The bottom layer is a silicon solar cell which absorbs the near infrared part of the EM spectrum. This allows them to produce more energy along the same area.</p>
+        {/* <a class="text-indigo-500 inline-flex items-center mt-3  ssm:mx-20">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a> */}
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden  flex justify-center">
+          <Image alt="content" class="object-cover object-center" width={500} height={600} src="/Integrated_pannels.jpg"/>
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5 ssm:mx-20">Building Integrated Panels</h2>
+        <p class="text-base leading-relaxed mt-2 text-justify  ssm:mx-20">Building energy consumption accounts for more than a third of world’s total energy consumption and a lot are yet to be built. So at PSI, we are developing semi-transparent perovskite panels which can be integrated in building on façades and other parts making them energy efficient aesthetically.</p>
+        {/* <a class="text-indigo-500 inline-flex items-center mt-3  ssm:mx-20">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a> */}
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden  flex justify-center">
+          <Image alt="content" class="object-cover object-center " width={500} height={600} src="/Energy_consultancy.jpg"/>
+        </div>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5 ssm:mx-20">Energy Consultancy</h2>
+        <p class="text-base leading-relaxed mt-2 text-justify ssm:mx-20">Our expertise will ensure that you take the right decisions while moving to solar. We would make you informed about, number of panels needed, optimal panel orientation and inclination, type of panel you should opt, what to choose off-grid or on-grid metering system and other required knowledge.</p>
+        {/* <a class="text-indigo-500 inline-flex items-center mt-3 ssm:mx-20">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a> */}
+      </div>
+    </div>
   </div>
 </section>
     </div>

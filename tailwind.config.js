@@ -21,6 +21,20 @@ module.exports = {
         '20%': '20%',
         '80%': '80%',
       },
+      screens: {
+      'llg': { 'max': '1023px' },
+      'lg': { 'min': '1023px' },
+      'mmd': { 'max': '767px' },
+      'umd': { 'max': '806px' },
+      'md': { 'min': '767px' },
+      'ssm': { 'max': '639px' },
+      'sm': { 'min': '639px' },
+    },
+    fontFamily: {
+        playwrite: ['Playwrite ES Deco','sans-serif'],
+        limelight: ['Limelight', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
       colors: {
         'bgcolor': '#071323',
       },

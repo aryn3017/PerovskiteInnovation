@@ -5,6 +5,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { BiMenu, BiX } from "react-icons/bi";
 import { RiNextjsFill } from "react-icons/ri";
+import Image from "next/image";
+import Body2 from "./Hero/Body2";
 
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -30,9 +32,9 @@ const Navbar = () => {
 
   const navLinks = [
     { href: "/", label: "Home" },
-    { href: "/media", label: "Media" },
-    { href: "/recipes", label: "Recipes" },
-    { href: "/contact", label: "Contact" },
+    { href: "#advisory_board", label: "Advisory Board" },
+    { href: "#teams", label: "Our Team" },
+    { href: "#foot", label: "Contact" },
   ];
 
   return (
@@ -46,17 +48,18 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className='flex flex-row items-center'>
-              <RiNextjsFill className="text-6xl text-gray-800" />
-              <p className='border-2 p-1 font-extrabold text-3xl text-black'>MUSHROOM</p>
+              {/* <RiNextjsFill className="text-6xl text-gray-800" /> */}
+              <Image src="/logo.png" alt="logo" width={40} height={40} className="mr-2"/>
+              <p className='border-2 p-1 md:text-xl text-black'>Perovskite Innovation</p>
             </Link>
-          </div>
+          </div> 
           {/* DESKTOP NAVIGATION */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-gray-900 text-2xl font-bold hover:transition-all duration-300 border-black hover:border-b-4 px-3 flex items-center text-md transition-colors ${
+                className={`text-gray-900 text-xl  hover:transition-all duration-300 border-black hover:border-b-4 px-3 flex items-center text-md transition-colors ${
                   pathname === link.href ? "text-blue-600" : ""
                 }`}
               >
