@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link href="/" className='flex flex-row items-center'>
               {/* <RiNextjsFill className="text-6xl text-gray-800" /> */}
-              <Image src="/logo.png" alt="logo" width={40} height={40} className="mr-2"/>
+              <Image src="/Logo.png" alt="logo" width={40} height={40} className="mr-2"/>
               <p className='border-2 p-1 md:text-xl text-black'>Perovskite Innovation</p>
             </Link>
           </div> 

@@ -12,7 +12,7 @@ const Footer = () => {
                 class=""
                 width={40}
                 height={40}
-                src="/logo.png"
+                src="/Logo.png"
               />
               <span class="ml-3 text-xl">PSI-Perovskite Innovation Pvt Ltd</span>
             </a>
