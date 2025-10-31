@@ -8,7 +8,7 @@ const Body3 = () => {
   <div class="container px-5 py-4 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">Advisory Board</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably  heard of them.</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base"> Industry veterans guiding tandem, BIPV innovation, and solar energy consultancy strategic direction</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
@@ -101,16 +101,26 @@ const Body3 = () => {
 <section class="text-gray-600 bg-white body-font md:hidden">
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably heard of them.</p>
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Advisory Board</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Industry veterans guiding tandem, BIPV innovation, and solar energy consultancy strategic direction</p>
     </div> 
     <div class="flex flex-wrap -m-2">
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
           <Image alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" height={200} width={200} src="/SATAPATHIsir.jpg"/>
           <div class="flex-grow">
-            <h2 class="text-gray-900 title-font font-medium">Holden Caulfield</h2>
-            <p class="text-gray-500">UI Designer</p>
+            <h2 class="text-gray-900 title-font font-medium">Prof. Soumitra Satapathi</h2>
+            <p class="text-gray-500">Co-Founder 
+& CSO</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+          <Image alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src=""/>
+          <div class="flex-grow">
+            <h2 class="text-gray-900 title-font font-medium">Henry Letham</h2>
+            <p class="text-gray-500">CTO</p>
           </div>
         </div>
       </div>
