@@ -2,6 +2,7 @@ import React from 'react'
 import Grad from '../Background/Grad'
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import Image from 'next/image'
+import Link from 'next/link'
 const Body1 = () => {
   return (
     <div>
@@ -21,7 +22,7 @@ const Body1 = () => {
         <div class="rounded-lg h-64 overflow-hidden flex justify-center">
         <Image alt="content" className="object-cover object-center" width={500} height={600} src="/tandem.jpg"/ >
         </div> 
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5   ssm:mx-10">Tandem Solar Cell <a href='/Tandem_module' className='text-sm'><button className='bg-gray-500 hover:bg-gray-600 hover:duration-700 px-3 py-1 rounded-lg text-white'> Learn More < BsBoxArrowUpRight className='size-3 inline-block mb-1' /></button></a></h2>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5   ssm:mx-10">Tandem Solar Cell <Link href='/Tandem_module' className='text-sm'><button className='bg-gray-500 hover:bg-gray-600 hover:duration-700 px-3 py-1 rounded-lg text-white'> Learn More < BsBoxArrowUpRight className='size-3 inline-block mb-1' /></button></Link></h2>
         <p class="text-base leading-relaxed mt-2 text-justify  ssm:mx-10">Tandem solar cells are actually two solar cells coupled together. The top solar cell is the perovskite layer which absorbs in the visible region and transmits near infrared light of the EM spectrum. The bottom layer is a silicon solar cell which absorbs the near infrared part of the EM spectrum. This allows them to produce more energy along the same area.</p>
         {/* <a class="text-indigo-500 inline-flex items-center mt-3  ssm:mx-20">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -33,7 +34,7 @@ const Body1 = () => {
         <div class="rounded-lg h-64 overflow-hidden  flex justify-center">
           <Image alt="content" class="object-cover object-center" width={500} height={600} src="/Integrated_pannels.jpg"/>
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5 ssm:mx-10">Building Integrated Panels <a href='/Tandem_module' className='text-sm'><button className='bg-gray-500 hover:bg-gray-600 hover:duration-700 px-3 py-1 rounded-lg text-white'> Learn More < BsBoxArrowUpRight className='size-3 inline-block mb-1' /></button></a></h2>
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5 ssm:mx-10">Building Integrated Panels <Link href='/Tandem_module' className='text-sm'><button className='bg-gray-500 hover:bg-gray-600 hover:duration-700 px-3 py-1 rounded-lg text-white'> Learn More < BsBoxArrowUpRight className='size-3 inline-block mb-1' /></button></Link></h2>
         <p class="text-base leading-relaxed mt-2 text-justify  ssm:mx-10">Building energy consumption accounts for more than a third of world’s total energy consumption and a lot are yet to be built. So at PSI, we are developing semi-transparent perovskite panels which can be integrated in building on façades and other parts making them energy efficient aesthetically.</p>
         {/* <a class="text-indigo-500 inline-flex items-center mt-3  ssm:mx-20">Learn More
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">

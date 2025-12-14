@@ -63,7 +63,7 @@ Silicon solar panels convert approximately 20–22 percent of sunlight into elec
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">IOCL Start-Up Challenge Grant for Advancing Solar Window Technology
       </h1>
-      <p class="mb-2 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <p class="mb-2 leading-relaxed">Perovskite Innovation Pvt Ltd, India&apos;s pioneering start-up specializing in indigenous perovskite solar cells manufacturing, and incubated within IIT Roorkee&apos;s esteemed Tides Business Incubation Center, proudly announces its receipt of the prestigious Indian Oil&apos;s Start-Up challenge award. This recognition is a testament to the innovative strides made by the team in developing low-cost solar window solutions, revolutionizing the landscape of renewable energy technology.</p>
       <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2019740&reg=3&lang=2" class="flex justify-center">
         <button class=" inline-flex text-white bg-green-600 border-0 py-2 px-4 focus:outline-none hover:bg-green-700 hover:duration-500 rounded text-lg">learn more</button>
       </a>
@@ -74,9 +74,9 @@ Silicon solar panels convert approximately 20–22 percent of sunlight into elec
       <Image class="object-cover object-center rounded" width={1920} height={1080} alt="hero" src="/ani.png"/>
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Breakthrough in Silicon-Perovskite Tandem Solar Cells, Driving India's Solar Atmanirbharta
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Breakthrough in Silicon-Perovskite Tandem Solar Cells, Driving India&apos;s Solar Atmanirbharta
       </h1>
-      <p class="mb-2 leading-relaxed">Roorkee (Uttarakhand) [India], September 29: India's march towards its ambitious 500 GW renewable energy target by 2030 has received a major boost with a breakthrough from the Indian Institute of Technology (IIT) Roorkee. A research team led by Prof. Soumitra Satapathi has successfully developed silicon-perovskite tandem solar cells achieving a record 30% power conversion efficiency (PCE)--a leap over the ~24% efficiency of conventional silicon modules.</p>
+      <p class="mb-2 leading-relaxed">Roorkee (Uttarakhand) [India], September 29: Indias march towards its ambitious 500 GW renewable energy target by 2030 has received a major boost with a breakthrough from the Indian Institute of Technology (IIT) Roorkee. A research team led by Prof. Soumitra Satapathi has successfully developed silicon-perovskite tandem solar cells achieving a record 30% power conversion efficiency (PCE)--a leap over the ~24% efficiency of conventional silicon modules.</p>
       <a href="https://www.aninews.in/news/business/iit-roorkee-achieves-breakthrough-in-silicon-perovskite-tandem-solar-cells-driving-indias-solar-atmanirbharta20250929131440/" class="flex justify-center">
         <button class=" inline-flex text-white bg-green-600 border-0 py-2 px-4 hover:duration-500  focus:outline-none hover:bg-green-700 rounded text-lg">learn more</button>
       </a>
