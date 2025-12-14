@@ -23,19 +23,19 @@ class Gallery_ extends Component {
             {/* <p className="legend">Legend 2</p> */}
           </div>
           <div>
-            <Image alt="..." width={2900} height={1140} src="/Gal3.png" />
+            <Image alt="..." width={2900} height={1140} src="/gal3.png" />
             {/* <p className="legend">Legend 3</p> */}
           </div>
           <div>
-            <Image alt="..." width={2900} height={1140} src="/Gal4.png" />
+            <Image alt="..." width={2900} height={1140} src="/gal4.png" />
             {/* <p className="legend">Legend 3</p> */}
           </div>
           <div>
-            <Image alt="..." width={2900} height={1140} src="/Gal5.png" />
+            <Image alt="..." width={2900} height={1140} src="/gal5.png" />
             {/* <p className="legend">Legend 3</p> */}
           </div>
           <div>
-            <Image alt="..." width={2900} height={1140} src="/Gal6.png" />
+            <Image alt="..." width={2900} height={1140} src="/gal6.png" />
             {/* <p className="legend">Legend 3</p> */}
           </div>
         </Carousel>
