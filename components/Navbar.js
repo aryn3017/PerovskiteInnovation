@@ -34,12 +34,13 @@ const Navbar = () => {
     { href: "/", label: "Home" },
     { href: "#advisory_board", label: "Advisory Board" },
     { href: "#teams", label: "Our Team" },
+    { href: "/Gallery", label: "About Us" },
     { href: "#foot", label: "Contact" },
   ];
 
   return (
     <div
-      className={`mb-7 backdrop-blur-sm bg-opacity-15 fixed w-full shadow-lg transition-transform duration-300 z-50 ${
+      className={`mb-7 bg-white backdrop-blur-2xl bg-opacity-40 fixed w-full shadow-lg transition-transform duration-300 z-50 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >

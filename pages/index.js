@@ -8,7 +8,6 @@ import Body1 from "@/components/Hero/Body1";
 import Body2 from "@/components/Hero/Body2";
 import Body3 from "@/components/Hero/Body3";
 import Body0 from "@/components/Hero/Body0";
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
