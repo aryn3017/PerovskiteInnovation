@@ -35,7 +35,7 @@ const Body1_2 = () => {
                   />
 
                   <h2 className="title-font font-medium text-3xl text-gray-900">
-                    <CountUp start={0} end={30} duration={10} delay={5} />%
+                    <CountUp start={0} end={30} duration={10} delay={2} />%
                   </h2>
                   <p className="leading-relaxed">Efficiency</p>
                 </div>
