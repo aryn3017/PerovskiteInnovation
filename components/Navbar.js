@@ -34,7 +34,7 @@ const Navbar = () => {
     { href: "/", label: "Home" },
     { href: "#advisory_board", label: "Advisory Board" },
     { href: "#teams", label: "Our Team" },
-    { href: "/Gallery", label: "About Us" },
+    { href: "/Gallery", label: "Blog" },
     { href: "#foot", label: "Contact" },
   ];
 

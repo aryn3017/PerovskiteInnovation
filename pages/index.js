@@ -8,6 +8,7 @@ import Body1 from "@/components/Hero/Body1";
 import Body2 from "@/components/Hero/Body2";
 import Body3 from "@/components/Hero/Body3";
 import Body0 from "@/components/Hero/Body0";
+import Body1_2 from "@/components/Hero/Body1_2";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -40,6 +41,7 @@ export default function Home() {
       <Heroback/>
       <Body0/>
       <Body1/>
+      <Body1_2/>
       <Body2/>
       <Body3/>
       

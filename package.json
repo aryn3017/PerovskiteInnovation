@@ -11,9 +11,12 @@
   "dependencies": {
     "next": "15.3.4",
     "react": "^19.0.0",
+    "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
-    "react-responsive-carousel": "^3.2.23"
+    "react-intersection-observer": "^10.0.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scroll-trigger": "^0.6.14"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
