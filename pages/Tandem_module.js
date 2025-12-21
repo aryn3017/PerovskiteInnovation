@@ -1,7 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import Background from "@/components/Background/Background";
 const Tandem_module = () => {
   return (
+    <div className="bg-black bg-opacity-20">
+      <Background/>
     <div className=" backdrop-blur-2xl">
 
       {/* #### 1111111111111 */}
@@ -137,7 +140,7 @@ We are also actively collaborating with GAIL (India) Limited on an industry-driv
         </div>
       </div>
       
-    </div>
+    </div></div>
   );
 };
 
