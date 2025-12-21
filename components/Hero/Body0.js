@@ -4,7 +4,7 @@ import Vdo from '../Background/Vdo'
 
 function Body0() {
   return (
-    <>
+    <div className='bg-black bg-opacity-70'>
     <Grad/>
     <div className='bg-white'>
         <section class="text-gray-600 body-font">
@@ -20,7 +20,7 @@ function Body0() {
     </div>
   </div>
 </section>
-    </div></>
+    </div></div>
   )
 }
 

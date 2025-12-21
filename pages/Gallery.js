@@ -7,7 +7,7 @@ import Background from "@/components/Background/Background";
 class Gallery_ extends Component {
   render() {
     return (
-      <>
+      <div className="bg-black bg-opacity-20">
       <Background/>
       < div className="backdrop-blur-2xl">
         
@@ -189,7 +189,7 @@ Silicon solar panels convert approximately 20–22 percent of sunlight into elec
             </div>
           </div>
         </section> */}
-      </div></>
+      </div></div>
     );
   }
 }
