@@ -9,6 +9,7 @@ import Body2 from "@/components/Hero/Body2";
 import Body3 from "@/components/Hero/Body3";
 import Body0 from "@/components/Hero/Body0";
 import Body1_2 from "@/components/Hero/Body1_2";
+import Vdo from "@/components/Background/Vdo";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -38,6 +39,7 @@ export default function Home() {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
       </Head>
+      <Vdo/>
       <Heroback/>
       <Body0/>
       <Body1/>

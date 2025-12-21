@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "next": "15.3.8",
+    "next-video": "^2.6.0",
+    "next-videos": "^1.4.1",
     "react": "^19.0.0",
     "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",

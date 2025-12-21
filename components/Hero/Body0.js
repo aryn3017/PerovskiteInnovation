@@ -1,9 +1,11 @@
 import React from 'react'
 import Grad from '../Background/Grad'
+import Vdo from '../Background/Vdo'
 
 function Body0() {
   return (
-    <><Grad/>
+    <>
+    <Grad/>
     <div className='bg-white'>
         <section class="text-gray-600 body-font">
   <div class="container px-5 pt-10 mx-auto">

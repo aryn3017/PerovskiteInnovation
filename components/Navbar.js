@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`mb-7 bg-white backdrop-blur-2xl bg-opacity-40 fixed w-full shadow-lg transition-transform duration-300 z-50 ${
+      className={`mb-7 bg-white backdrop-blur-3xl bg-opacity-40 fixed w-full shadow-lg transition-transform duration-300 z-50 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >

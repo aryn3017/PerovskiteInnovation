@@ -3,10 +3,14 @@ import ReactDOM from "react-dom";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
+import Background from "@/components/Background/Background";
 class Gallery_ extends Component {
   render() {
     return (
+      <>
+      <Background/>
       < div className="backdrop-blur-2xl">
+        
         <Carousel
           className="pt-16 bg-black bg-opacity-60"
           autoPlay
@@ -42,7 +46,10 @@ class Gallery_ extends Component {
 
         <section class="text-gray-600 body-font pb-10 ">
   <div class="container mx-auto flex px-5 py-10 mt-10 md:flex-row flex-col items-center bg-white bg-opacity-50 rounded-2xl">
-    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 sm:hidden">
+      <iframe src="https://www.youtube-nocookie.com/embed/Z4kbcT8sTR4?si=o2z9uBb20yBqGQ9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ssm:hidden">
       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z4kbcT8sTR4?si=o2z9uBb20yBqGQ9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -182,7 +189,7 @@ Silicon solar panels convert approximately 20–22 percent of sunlight into elec
             </div>
           </div>
         </section> */}
-      </div>
+      </div></>
     );
   }
 }
