@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`mb-7 bg-white backdrop-blur-3xl bg-opacity-40 fixed w-full shadow-lg transition-transform duration-300 z-50 ${
+      className={`sm:mb-12 mb-7 sm:p-4 bg-white backdrop-blur-3xl bg-opacity-40 fixed w-full shadow-lg transition-transform duration-300 z-50 ${
         isVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
@@ -51,7 +51,7 @@ const Navbar = () => {
             <Link href="/" className='flex flex-row items-center'>
               {/* <RiNextjsFill className="text-6xl text-gray-800" /> */}
               <Image src="/Logo.png" alt="logo" width={40} height={40} className="mr-2"/>
-              <p className='border-2 p-1 md:text-xl text-black'>Perovskite Innovation</p>
+              <p className='border-2 p-1 md:text-3xl text-lg text-black rounded-lg'>Perovskite Innovation</p>
             </Link>
           </div> 
           {/* DESKTOP NAVIGATION */}

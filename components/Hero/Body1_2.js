@@ -9,7 +9,7 @@ import CountUp from "react-countup";
 const Body1_2 = () => {
   return (
     <div className="bg-white grid lg:grid-cols-2 mmd:grid-rows-2 md:px-10% px-10">
-      <div className="px-10 items-center justify-center flex">
+      <div className="sm:px-10 items-center justify-center flex">
         <Image
           className="rounded-3xl"
           src="/body1_2.png"

@@ -9,7 +9,7 @@ const Tandem_module = () => {
 
       {/* #### 1111111111111 */}
 
-      <div className="sm:grid sm:grid-cols-3 gap-4 py-5 sm:px-5 pt-20 justify-center">
+      <div className="sm:grid sm:grid-cols-3 gap-4 py-5 sm:px-5 pt-28 justify-center">
         <div>
           <Image
             className="rounded-xl ssm:px-5 ssm:pb-2"

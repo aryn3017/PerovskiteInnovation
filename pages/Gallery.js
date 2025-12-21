@@ -12,7 +12,7 @@ class Gallery_ extends Component {
       < div className="backdrop-blur-2xl">
         
         <Carousel
-          className="pt-16 bg-black bg-opacity-60"
+          className="sm:pt-20 pt-16 bg-black bg-opacity-60"
           autoPlay
           interval={5000}
           infiniteLoop
