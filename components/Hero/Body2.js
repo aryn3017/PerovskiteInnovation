@@ -67,19 +67,7 @@ Pant</h2>
         </div>
       </div>
       
-      <div class="p-4 lg:w-1/4 md:w-1/2">
-        <div class="h-full flex flex-col items-center text-center">
-          <Image alt="team" class="flex-shrink-0 rounded-full w-full object-cover object-center mb-4" height={200} width={200} src="/Varun.png"/>
-          <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-gray-900">Dr. Varun Srivastava</h2>
-            <h3 class="text-gray-500 mb-3">Research Engineer</h3>
-            {/* <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
-            <span class="inline-flex">
-              <FaLinkedin className='size-5' />
-            </span>
-          </div>
-        </div>
-      </div>
+      
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
           <Image alt="team" class="flex-shrink-0 rounded-full w-full object-cover object-center mb-4" height={200} width={200} src="/aryan.png"/>
@@ -96,10 +84,10 @@ Pant</h2>
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <Image alt="team" class="flex-shrink-0 rounded-full w-full object-cover object-center mb-4" height={200} width={200} src="/Swati.jpeg"/>
+          <Image alt="team" class="flex-shrink-0 rounded-full w-full object-cover object-center mb-4" height={200} width={200} src="/Tanwistha.jpg"/>
           <div class="w-full">
-            <h2 class="title-font font-medium text-lg text-gray-900">Ms. Swati Sharma</h2>
-            <h3 class="text-gray-500 mb-3">Business Analyst</h3>
+            <h2 class="title-font font-medium text-lg text-gray-900">Dr. Tanwistha Chakrabarti</h2>
+            <h3 class="text-gray-500 mb-3">Research Engineer</h3>
             {/* <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
             <span class="inline-flex">
               <a href=''>
@@ -189,22 +177,14 @@ Pant <FaLinkedin className='size-5 inline-block mb-1 ml-2' /></h2>
       </div>
       <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"  height={200} width={200}  src="/Swati.jpeg"/>
+          <Image alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"  height={200} width={200}  src="/Tanwistha.jpg"/>
           <div class="flex-grow">
-            <h2 class="text-gray-900 title-font font-medium">Ms. Swati Sharma<FaLinkedin className='size-5 inline-block mb-1 ml-2' /></h2>
-            <p class="text-gray-500">Business Analyst</p>
-          </div>
-        </div>
-      </div>
-      <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-        <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
-          <Image alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"  height={200} width={200}  src="/Varun.png"/>
-          <div class="flex-grow">
-            <h2 class="text-gray-900 title-font font-medium">Dr. Varun Srivastava <FaLinkedin className='size-5 inline-block mb-1 ml-2' /></h2>
+            <h2 class="text-gray-900 title-font font-medium">Dr. Tanwistha Chakrabarti<FaLinkedin className='size-5 inline-block mb-1 ml-2' /></h2>
             <p class="text-gray-500">Research Engineer</p>
           </div>
         </div>
       </div>
+      
       
     </div>
   </div>
